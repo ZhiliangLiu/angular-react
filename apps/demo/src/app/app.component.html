@@ -48,7 +48,8 @@
 </div>
 <div>
   callout:
-  <fab-callout></fab-callout>
+  <button #calloutButton (click)="showCallout = !showCallout">{{ showCallout ? 'hide callout' : 'show callout' }}</button>
+  <fab-callout *ngIf="showCallout" [target]="calloutButton" (onDismiss)="handleCalloutDismiss()">I am a callout</fab-callout>
 </div>
 <div>
   checkbox:

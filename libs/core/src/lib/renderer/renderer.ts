@@ -189,9 +189,17 @@ export class ReactRenderer implements Renderer2 {
     node.setRenderPendingCallback = this.rootRenderer.setRenderPendingCallback;
   }
 
-  removeChild(parent: HTMLElement | ReactNode | void, node: ReactNode): void {
+  removeChild(parent: HTMLElement | ReactNode | void, node: ReactNode | Node): void {
     // Only insert a child if there is a parent.
     if (!parent) {
+      return;
+    }
+
+    if (node instanceof Node) {
+      if (DEBUG) {
+        console.warn('Renderer > removeChild > asNode > parent:', parent.toString(), 'node:', node.toString());
+      }
+      parent.removeChild(node);
       return;
     }
 

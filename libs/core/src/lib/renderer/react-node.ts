@@ -161,7 +161,7 @@ export class ReactNode {
    *
    * @param node The node to remove.
    */
-  removeChild(node: ReactNode) {
+  removeChild(node: ReactNode | Node) {
     this.setRenderPending();
     this._children = this._children.filter(child => child !== node);
   }

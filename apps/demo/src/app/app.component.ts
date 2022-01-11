@@ -397,6 +397,12 @@ export class AppComponent {
     this.peoplePickerSelectedItems = items.items;
   }
 
+  handleCalloutDismiss() {
+    if (this.showCallout) {
+      this.showCallout = !this.showCallout;
+    }
+  }
+
   private _hasSuffix(value: string, suffix: string): Boolean {
     const subString = value.substr(value.length - suffix.length);
     return subString === suffix;
