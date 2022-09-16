@@ -1,6 +1,6 @@
 {
   "name": "angular-react-toolkit",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/microsoft/angular-react/issues"
@@ -21,11 +21,11 @@
   "private": false,
   "sideEffects": false,
   "peerDependencies": {
-    "@angular-react/core": "^4.1.0",
-    "@angular/common": "^13.3.0",
-    "@angular/core": "^13.3.0",
-    "@angular/platform-browser-dynamic": "^13.3.0",
-    "@angular/platform-browser": "^13.3.0",
+    "@angular-react/core": "^4.2.0",
+    "@angular/common": "^14.2.2",
+    "@angular/core": "^14.2.2",
+    "@angular/platform-browser-dynamic": "^14.2.2",
+    "@angular/platform-browser": "^14.2.2",
     "@fluentui/react": "^8.47.3",
     "react-dom": "~16.8.6",
     "react": "^16.8.6"

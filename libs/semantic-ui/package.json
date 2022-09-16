@@ -1,6 +1,6 @@
 {
   "name": "@angular-react/semantic-ui",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "description": "Use Semantic-UI React components inside Angular",
   "author": "Ben Feely <http://benfeely.com>",
   "license": "MIT",
@@ -23,11 +23,11 @@
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular-react/core": "^4.1.0",
-    "@angular/common": "^13.3.0",
-    "@angular/core": "^13.3.0",
-    "@angular/platform-browser-dynamic": "^13.3.0",
-    "@angular/platform-browser": "^13.3.0",
+    "@angular-react/core": "^4.2.0",
+    "@angular/common": "^14.2.2",
+    "@angular/core": "^14.2.2",
+    "@angular/platform-browser-dynamic": "^14.2.2",
+    "@angular/platform-browser": "^14.2.2",
     "semantic-ui-react": "^0.79.1",
     "react-dom": "^16.4.1",
     "react": "^16.4.1"
